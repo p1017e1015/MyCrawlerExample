@@ -5,7 +5,7 @@ import org.apache.commons.logging.impl.SimpleLog;
 
 /**
  * 練習題：請使用 Google direction API (導航)功能，完成API call，以及印出 distance
- *
+ *git上傳查看檔案有點問題
  * 完成後同學請記得兩步動作上傳
  * 1. git > add
  * 2. git > commit file (一定要記得PUSH!!)
