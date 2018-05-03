@@ -45,7 +45,7 @@ class CSSSelector {
                         //.getFromXml(uri)
 
                         // 這兒開始是 Jsoup Document 物件操作
-                        .select(" li:nth-child(2) > div > span > a > span")
+                        .select("D-b.Abu-C-b Fw-b Mstart-20 Mend-8 Mb-6 Ell Fz-m.Cur-p.story-title")
 
         );
     }

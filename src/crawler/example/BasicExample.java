@@ -20,22 +20,20 @@ public class BasicExample {
 		CrawlerPack.setLoggerLevel(SimpleLog.LOG_LEVEL_OFF);
 
 		// 遠端資料路徑
-		String uri = "http://.../";
+		String uri = "https://www.ptt.cc/bbs/Gossiping/M.1524895487.A.DD8.html";
 
 		System.out.println(
 				CrawlerPack.start()
 				
 				// 參數設定
-			    //.addCookie("key","value")	// 設定cookie
+			    .addCookie("over18","1")	// 設定cookie
 				//.setRemoteEncoding("big5")// 設定遠端資料文件編碼
 				
 				// 選擇資料格式 (三選一)
-				.getFromJson(uri)
-			    //.getFromHtml(uri)
-			    //.getFromXml(uri)
-			    
-			    // 這兒開始是 Jsoup Document 物件操作
-			    .select(".css .selector ")
+				//.getFromJson(uri)
+			    .getFromHtml(uri)
+			    //.getFromXml(uri
+					.select("#main-content div:contains(噓) .f3.push-content")
 			    
 		);
 	}
