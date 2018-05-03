@@ -36,7 +36,7 @@ public class FullExampleIntergrationToELK {
 
 
     public FullExampleIntergrationToELK() throws Exception{
-        // 確認要查詢 channels 清單
+        // 確認要查詢 channels 清單  .
         List<String> channels = getChannels();
 
         // 讀取 channels 的 videos
